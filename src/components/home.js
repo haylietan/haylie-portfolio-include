@@ -4,8 +4,34 @@ import '../App.css'
 export const Home = () => {
     return (
         <div class="Home">
-            <h1>welcome to my personal website</h1>
-            <p>hi! my name is haylie.</p>
+            
+            <div class="navbar-container">
+                <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>Services</li>
+                        <li>Products</li>
+                        <li>Clients</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="intro-text">
+                <h1 id="title" class="typing-animation">hi there, i'm haylie tan.</h1>
+
+                <div class="text" class="typing-animation-2">
+                    <p>Mathematics and Scientific Computation @ UC Davis</p>
+                    <p> 
+                        A current first-year student at UC Davis majoring in mathematics and scientific computation. 
+                        Eager to bridge the gap between theory and practice, I'm exploring how mathematical rigor aligns
+                        with the creativity and innovation of the tech world. Beyond my academic pursuits, 
+                        I am always looking to apply my skills, knowledge, and passion towards new and exciting projects.
+                    </p>
+                </div>
+                </div>
+
         </div>
+        
     )
 }

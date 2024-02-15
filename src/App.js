@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import { Home } from './components/home';
 import { AboutMe } from './components/aboutMe';
 import { Error } from './components/error';
+// font import from google fonts
 
 function App() {
   return (
