@@ -18,10 +18,15 @@ export const Home = () => {
             </div>
 
             <div id="intro-text">
-                <h1 id="title" class="typing-animation">hi there, i'm haylie tan.</h1>
+                <h1 id="title" class="typing-animation">
+                    hi there, i'm haylie tan.
+                </h1>
 
-                <div class="text" class="typing-animation-2">
-                    <p>Mathematics and Scientific Computation @ UC Davis</p>
+                <div class="text" classs="typing-animation-2">
+                    <p>
+                        Mathematics and Scientific Computation @ UC Davis
+                    </p>
+
                     <p> 
                         A current first-year student at UC Davis majoring in mathematics and scientific computation. 
                         Eager to bridge the gap between theory and practice, I'm exploring how mathematical rigor aligns
@@ -30,6 +35,22 @@ export const Home = () => {
                     </p>
                 </div>
                 </div>
+
+            <div id="skills">
+
+                <h1 class="heading">
+                    Skills
+                </h1>
+
+                <img src="Images/headshothaylie.jpg" alt="Haylie Tan"/>
+                <img src="../Images/python.png" alt="python"/>
+                <img src="../Images/git.png" alt="git"/>
+                <img src="../Images/html.png" alt="html"/>
+                <img src="../Images/css.png" alt="css"/>
+                <img src="../Images/react.png" alt="react"/>
+
+            </div>
+
 
         </div>
         

@@ -15,6 +15,8 @@
 .text {
   font-size: 1.5rem;
   align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 body {
@@ -86,6 +88,24 @@ nav ul li:hover::after {
 }
 
 /* title animation */
+
+/* skills page */
+#skills {
+  background-color: #E8D8C4;
+  margin: 15vh;
+  height: 100%;
+  padding: 5% 15%;
+}
+
+#skills h1 {
+  font-style: normal;
+  color: #503C3C;
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  font-size: 6vh;
+}
 
 
 
