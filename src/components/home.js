@@ -50,6 +50,32 @@ export const Home = () => {
 
                 <h1 className="heading">Skills</h1>
 
+                <p class="skills-text">
+                    As a passionate and dedicated developer, I have acquired a diverse set of technical skills that enable me to tackle complex challenges and deliver innovative solutions. Here are some of the key skills I bring to the table:
+                </p>
+
+                <ul class="skills-text">
+                    <li>
+                        Frontend Development: Proficient in HTML and CSS with experience in building responsive and user-friendly web interfaces.
+                    </li>
+                    <li>
+                        JavaScript Frameworks: Skilled in using modern JavaScript frameworks such as React.js to develop dynamic and interactive web applications.
+                    </li>
+                    <li>
+                        Version Control: Experienced in using Git for version control, GitHub for collaboration, and GitLab for continuous integration and deployment.
+                    </li>
+                    <li>
+                    RStudio Proficiency: Skilled in utilizing RStudio as the primary integrated development environment (IDE) for R programming.
+                    </li>
+                    <li>
+                        UI/UX Design: Understanding of UI/UX principles, with the ability to design intuitive user interfaces and improve user experience on Figma through wireframing and prototyping.
+                    </li>
+                </ul>
+
+                <p class="skills-text">
+                    My passion for technology and continuous learning drives me to stay updated with the latest trends and tools in the industry, ensuring that I deliver high-quality solutions that meet the evolving needs of users and businesses.
+                </p>
+
                 <img class="skill-images" src={python} alt="python" />
                 <img class="skill-images" src={git} alt="git" />
                 <img class="skill-images" src={html} alt="html" />

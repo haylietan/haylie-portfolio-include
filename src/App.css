@@ -116,6 +116,15 @@ nav ul li:hover::after {
   height: auto; /* Maintain the aspect ratio of the images */
 }
 
+.skills-text {
+  color: black;
+  text-align: left;
+}
+
+.skills-text li {
+  margin: 15px 15px;
+}
+
 #skills h1 {
   font-style: normal;
   color: #503C3C;
