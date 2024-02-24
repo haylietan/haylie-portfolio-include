@@ -1,6 +1,8 @@
-import React from 'react'
-import '../App.css'
+import React from 'react';
+import '../App.css';
+import { useState } from 'react';
 
+// import images
 import headshothaylie from '../Images/headshothaylie.jpg';
 import python from '../Images/python.png';
 import git from '../Images/git.png';
@@ -9,6 +11,23 @@ import css from '../Images/css.png';
 import react from '../Images/react.png';
 
 export const Home = () => {
+    const [clicked, setClicked] = useState(0);
+    const [inputBox, setInputBox] = useState('');
+    const [display, setDisplay] = useState('');
+
+    function handleClick() {
+        setClicked(clicked + 1)
+    }
+
+    function handleTyping(event) {
+        setInputBox(event.target.value)
+        console.log(event.target.value)
+    }
+
+    function displayParagraph() {
+        setDisplay(inputBox)
+    }
+
     return (
         <div class="Home">
 
@@ -31,8 +50,18 @@ export const Home = () => {
                 </div>
 
                 <img src={headshothaylie} alt="Haylie Tan" />
+            </div>
 
-                </div>
+            <div id="click-count">
+                <p> This is the number of times clicked: {clicked}.</p>
+                <button onClick={handleClick}>click me!</button>
+            </div>
+
+            <div id="submitform">
+                <p>{display}</p>
+                <input value={inputBox} onChange={handleTyping}/>
+                <button onClick={displayParagraph}>submit form</button>
+            </div>
 
             <div id="skills">
 

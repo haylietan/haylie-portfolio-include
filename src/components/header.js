@@ -9,8 +9,8 @@ export const Header = () => {
                 <nav>
                     <ul>
                         <li>Home</li>
-                        <li>Services</li>
-                        <li>Products</li>
+                        <li>About Me</li>
+                        <li>Projects</li>
                         <li>Clients</li>
                         <li>Contact</li>
                     </ul>
