@@ -11,18 +11,6 @@ import react from '../Images/react.png';
 export const Home = () => {
     return (
         <div class="Home">
-            
-            <div class="navbar-container">
-                <nav>
-                    <ul>
-                        <li>Home</li>
-                        <li>Services</li>
-                        <li>Products</li>
-                        <li>Clients</li>
-                        <li>Contact</li>
-                    </ul>
-                </nav>
-            </div>
 
             <div id="intro-text">
                 <h1 id="title" class="typing-animation">
