@@ -8,13 +8,23 @@ export const AboutMe = () => {
                 <h1>about me</h1>
                 <p>all about me</p>
             </div>
-            <div class="text">
-                <p> 
-                    Hi there! My name is Haylie.
-                    I'm a current first-year student at UC Davis majoring in mathematics and scientific computation. Eager to bridge the gap between theory and practice, I'm exploring how mathematical rigor aligns with the creativity and innovation of the tech world. Beyond my academic pursuits, I am always looking to apply my skills, knowledge, and passion towards new and exciting projects.
-                    Let's connect! 
-                </p>
+
+            <div class="page">
+                <div class="content">
+
+                    <div class="page-column">
+                        <p>About me.</p>
+                    </div>
+
+                    <div class="page-column">
+                        <p>
+                            This is an article of content that sits inline with a sidebar. Resize the
+                            browser to see how when there’s no enough room, the sidebar will stack on to a
+                            new line.
+                        </p>
+                    </div>
             </div>
+        </div>
         </>
     )
 }

@@ -124,3 +124,17 @@ body {
     transform: rotate(360deg);
   }
 }
+
+/* about me page */
+
+.page {
+  border: 3px solid #E8D8C4;
+  display: flex;
+}
+
+.page-column {
+  border: 3px solid #61dafb;
+  background-color: #f1f1f1;
+  width: 50%;
+  flex-grow: 1;
+}
