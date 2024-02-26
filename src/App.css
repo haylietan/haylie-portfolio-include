@@ -127,14 +127,54 @@ body {
 
 /* about me page */
 
-.page {
-  border: 3px solid #E8D8C4;
-  display: flex;
+.page-layout {
+  color: white;
+  padding: 5%;
+  font-size: 1.5rem;
 }
 
-.page-column {
-  border: 3px solid #61dafb;
-  background-color: #f1f1f1;
-  width: 50%;
-  flex-grow: 1;
+.about-parent {
+  /*border: 1px solid white;*/
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+  display: flex;
+}
+.child {
+  display: inline-block;
+  /*border: 1px solid white;*/
+  padding: 1rem;
+  vertical-align: middle;
+  flex: auto;
+}
+
+#child-narrow {
+  width: 10%;
+  text-align: left;
+  font-size: 2rem;
+  color: pink;
+}
+
+#child-wide {
+  width: 70%;
+  text-align: left;
+}
+
+/* projects page */
+.project-card {
+  border: 1px solid #eee;
+  background-color: #E8D8C4;
+  color: black;
+  text-align: center;
+  padding: 10%;
+  margin: 1%;
+  display: inline-block;
+  box-shadow: 0 25px 25px #000;
+}
+
+.project-card:hover {
+  background-color: beige;
+  color: black;
+  scale: 1.03;
+  transition: 0.3s;
 }
