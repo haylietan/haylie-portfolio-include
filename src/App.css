@@ -178,3 +178,35 @@ body {
   scale: 1.03;
   transition: 0.3s;
 }
+
+/* contacts page */
+
+.contact-images {
+  width: 50px;
+  height: auto;
+}
+
+.social-media-list {
+  background-color: black;
+  margin-top: 5%;
+  padding-left: 37%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  position: relative;
+  font-size: 22px;
+  list-style: none;
+  text-align: left;
+  border-radius: 50px;
+}
+
+.social-media-list img {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+.social-media-list p {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}

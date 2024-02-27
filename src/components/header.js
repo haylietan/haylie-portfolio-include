@@ -11,7 +11,6 @@ export const Header = () => {
                         <li path='/'>Home</li>
                         <li path='/aboutme'>About Me</li>
                         <li path='/projects'>Projects</li>
-                        <li path='/clients'>Clients</li>
                         <li path='/contact'>Contact</li>
                     </ul>
                 </nav>
