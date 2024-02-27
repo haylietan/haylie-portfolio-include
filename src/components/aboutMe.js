@@ -5,8 +5,8 @@ export const AboutMe = () => {
     return (
         <>
             <div class="page-layout">
-                <h1>about me</h1>
-                <p>all about me</p>
+                <h1>About Me</h1>
+                <p>More about me.</p>
                 
                 <div class='about-parent'>
                     <div class='child' id="child-narrow">Haylie Tan</div>
