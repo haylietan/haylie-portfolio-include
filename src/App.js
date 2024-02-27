@@ -5,12 +5,10 @@ import { Home } from './components/home';
 import { AboutMe } from './components/aboutMe';
 import { Error } from './components/error';
 import { Header } from './components/header';
+import { Footer } from './components/footer';
 import { Projects } from './components/projects';
 import { Contact } from './components/contact';
 
-// fix nav links
-import { HashRouter } from 'react-router-dom';
-// font import from google fonts
 
 function App() {
   return (
@@ -25,6 +23,7 @@ function App() {
           <Route path='/*' element={<Error/>}/>
         </Routes>
       </Router>
+      <Footer/>
     </div>
   );
 }
