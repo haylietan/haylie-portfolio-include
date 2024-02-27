@@ -8,10 +8,10 @@ export const Header = () => {
             <div class="navbar-container">
                 <nav>
                     <ul>
-                        <li path='/'>Home</li>
-                        <li path='/aboutme'>About Me</li>
-                        <li path='/projects'>Projects</li>
-                        <li path='/contact'>Contact</li>
+                        <li><a href='/' target="_blank">Home</a></li>
+                        <li><a href='/aboutme' target="_blank">About Me</a></li>
+                        <li><a href='/projects' target="_blank">Projects</a></li>
+                        <li><a href='/contact' target="_blank">Contact</a></li>
                     </ul>
                 </nav>
             </div>
