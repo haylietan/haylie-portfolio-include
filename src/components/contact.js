@@ -2,6 +2,8 @@ import React from 'react'
 import '../App.css'
 import { useState } from 'react';
 import email from '../Images/email.png';
+import phone from '../Images/phone.png';
+import linkedin from '../Images/linkedin.png';
 
 export const Contact = () => {
     const [inputBox, setInputBox] = useState('');
@@ -41,12 +43,12 @@ export const Contact = () => {
                     </li>
 
                     <li>
-                        <img class="contact-images" src={email} alt="email" />
+                        <img class="contact-images" src={phone} alt="email" />
                         <p> (510)358-1578 </p>
                     </li>
 
                     <li>
-                        <img class="contact-images" src={email} alt="email" />
+                        <img class="contact-images" src={linkedin} alt="email" />
                         <p> linkedin.com/haylietan27 </p>
                     </li>
                 </ul>
