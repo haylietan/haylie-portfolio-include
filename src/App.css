@@ -8,8 +8,7 @@
 
 .Home {
   text-align: center;
-  background-color:561C24;
-  color:#E8D8C4;
+  color:#F6F6F6;
 }
 
 .text {
@@ -17,10 +16,11 @@
   align-items: center;
   padding-left: 20%;
   padding-right: 20%;
+  padding-bottom: 4%;
 }
 
 body {
-  background-color:#503C3C;
+  background-color:#212121;
   font-family: "League Spartan", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -31,7 +31,7 @@ body {
 
 #title {
   font-style: normal;
-  color: #EEA5A6;
+  color: #6D9886;
   font-family: "DM Serif Display";
   font-weight: 400;
   font-style: normal;
@@ -51,7 +51,7 @@ body {
 
 /* skills page */
 #skills {
-  background-color: #E8D8C4;
+  background-color: #6D9886;
   margin: 15vh;
   height: 100%;
   padding: 5% 15%;
@@ -68,8 +68,9 @@ body {
 }
 
 .skills-text {
-  color: black;
+  color: #F6F6F6;
   text-align: left;
+  font-size: 1.5rem;
 }
 
 .skills-text li {
@@ -78,7 +79,7 @@ body {
 
 #skills h1 {
   font-style: normal;
-  color: #503C3C;
+  color: #F6F6F6;
   font-family: "DM Serif Display";
   font-weight: 400;
   font-style: normal;
@@ -118,7 +119,7 @@ body {
 }
 
 .App-link {
-  color: #61dafb;
+  color: #6D9886;
 }
 
 @keyframes App-logo-spin {
