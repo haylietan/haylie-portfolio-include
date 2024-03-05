@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import { useState } from 'react';
+import { useEffect } from 'react';
 
 // import images
 import headshothaylie from '../Images/headshothaylie.jpg';
@@ -13,12 +14,32 @@ import react from '../Images/react.png';
 export const Home = () => {
     const [clicked, setClicked] = useState(0);
 
+    const[dogsurl, setDogs] = useState('');
+
+    useEffect(() => {
+        getDogs()
+    },[dogsurl])
+
     function handleClick() {
         setClicked(clicked + 1)
     }
 
+    async function getDogs(){
+        const response = await fetch("https://dog.ceo/api/breed/hound/images/random");
+        const data = response.json();
+        console.log(response, data)
+        if (response.ok) {
+            console.log(data.Object)
+            setDogs(data.message);
+        }
+    }
+
     return (
         <div class="Home">
+
+            <div>
+            {dogsurl ? <img src={dogsurl}/> : <p> Loading...</p>}
+            </div>
 
             <div id="intro-text">
                 <h1 id="title" class="typing-animation">
