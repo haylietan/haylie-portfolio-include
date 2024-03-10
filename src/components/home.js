@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.css';
 import { useState } from 'react';
 import { useEffect } from 'react';
+import RandomDogImage from './RandomImage';
 
 // import images
 import headshothaylie from '../Images/headshothaylie.jpg';
@@ -15,6 +16,7 @@ export const Home = () => {
     const [clicked, setClicked] = useState(0);
 
     const[dogsurl, setDogs] = useState('');
+    
 
     useEffect(() => {
         getDogs()
@@ -37,10 +39,6 @@ export const Home = () => {
     return (
         <div class="Home">
 
-            <div>
-            {dogsurl ? <img src={dogsurl}/> : <p> Loading...</p>}
-            </div>
-
             <div id="intro-text">
                 <h1 id="title" class="typing-animation">
                     hi there, i'm haylie tan.
@@ -60,6 +58,8 @@ export const Home = () => {
                 </div>
 
                 <img src={headshothaylie} alt="Haylie Tan" />
+                <h1>Random Image of Dog:</h1>
+                <RandomDogImage />
             </div>
 
             <div id="click-count">
